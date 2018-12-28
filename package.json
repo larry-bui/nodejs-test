@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-test",
+  "version": "1.0.0",
+  "description": "NodeJS test 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larry-bui/nodejs-test.git"
+  },
+  "author": "Larry Bui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larry-bui/nodejs-test/issues"
+  },
+  "homepage": "https://github.com/larry-bui/nodejs-test#readme"
+}
