@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/larry-bui/nodejs-test/issues"
   },
-  "homepage": "https://github.com/larry-bui/nodejs-test#readme"
+  "homepage": "https://github.com/larry-bui/nodejs-test#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
