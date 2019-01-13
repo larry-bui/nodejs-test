@@ -10,10 +10,10 @@ leaderRouter.use(bodyParser.json());
 leaderRouter.route('/')
 .get((req,res,next) => {
     Leaders.find({})
-    .then((leader) => {
+    .then((leaders) => {
         res.statusCode = 200;
         res.setHeader('Content-Type', 'application/json');
-        res.json(leader);
+        res.json(leaders);
     }, (err) => next(err))
     .catch((err) => next(err));
 })
